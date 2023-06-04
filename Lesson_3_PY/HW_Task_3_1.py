@@ -13,7 +13,7 @@ import random
 arr = [random.randint(1,5) for _ in range(N)]
 print(arr)
 
-X = int(input('Ведите число, чтобы вычислить сколько раз оно встречается в массиве'))
+X = int(input('Введите число, чтобы вычислить сколько раз оно встречается в массиве: '))
 count = 0
 for i in range(N):
     if arr[i] == X:
