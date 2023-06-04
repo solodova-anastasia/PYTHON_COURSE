@@ -18,7 +18,7 @@ else:
         min = abs(X - A[0])
         index = 0
         for i in range(1, N):
-            difference = abs(X - A[i])  #разница между числами X и каждым из элементов
+            difference = abs(X - A[i])  #разница между числом X и каждым из элементов
             if difference < min:
                 min = difference
                 index = i

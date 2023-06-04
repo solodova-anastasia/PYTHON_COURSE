@@ -22,15 +22,17 @@
 # ноутбук
 #     12
 
-list_letters = {1: 'A E I O U L N S T R А В Е И Н О Р С Т',
-                2: 'D G Д К Л М П У',
-                3: 'B C M P Б Г Ё Ь Я',
-                4: 'F H V W Y Й Ы',
-                5: 'K Ж З Х Ц Ч',
-                8: 'J X Ш Э Ю',
-                10: 'Q Z Ф Щ Ъ'}
+list_letters = {1:"AEIOULNSTRАВЕИНОРСТ",
+                2:"DGДКЛМПУ",
+                3:"BCMPБГЁЬЯ",
+                4:"FHVWYЙЫ",
+                5:"KЖЗХЦЧ",
+                8:"JXШЭЮ",
+                10:"QZФЩЪ"}
 Word = input("Введите слово на русском или англисйком языке: ").upper()
 score = 0
-for letter in Word:
-    score += list_letters[letter]
-print('Стоимость слова {Word} - {score} очков')
+for i in Word:
+    for keys, value in list_letters.items():
+        if i in value:
+            score += keys
+print(f'Стоимость слова {Word} - {score} очков')
