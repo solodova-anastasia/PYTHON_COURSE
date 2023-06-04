@@ -8,4 +8,14 @@
 #     -> 1
 
 N = int(input('Введите количество элементов в массиве: '))
-lst_N = input('Введите элементы списка через пробел')
+
+import random
+arr = [random.randint(1,5) for _ in range(N)]
+print(arr)
+
+X = int(input('Ведите число, чтобы вычислить сколько раз оно встречается в массиве'))
+count = 0
+for i in range(N):
+    if arr[i] == X:
+        count += 1
+print(f'Число {X} встречается в массиве {count} раз')
