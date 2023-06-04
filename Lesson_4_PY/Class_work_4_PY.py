@@ -32,13 +32,31 @@
 # меньше ошибок в коде, тот и выиграл спор. За помощью товарищи обратились к Вам, студентам.
 # Примечание: Программные коды на следующих слайдах
 
-chislo = 0
-while True:
-    num = int(input())
-    if num > 0:
-        if chislo < num:
-            chislo = num
-    else:
-        break
+# 1й вариант решения:
+# chislo = 0
+# while True:
+#     num = int(input())
+#     if num > 0:
+#         if chislo < num:
+#             chislo = num
+#     else:
+#         break
+# print(chislo)
 
-print(chislo)
+# 2й вариант решения
+# count_numbers = 1
+# number_ = int(input(f'Введите число {count_numbers}: '))
+# maximum_ = number_
+# while number_ != 0:
+#     count_numbers += 1
+#     number_ = int(input(f'Введите число {count_numbers}: '))
+#     if number_ > maximum_:
+#         maximum_ = number_
+# print(f'Наибольший элемент последовательности: {maximum_}')
+
+# 3й вариант решения
+# maxx = -1
+# while (num:=int(input('--> '))) != 0:  #МОРЖОВЫЙ ОПЕРАТОР := для присвоения значения
+#     if num > maxx:
+#         maxx = num
+# print(maxx)
