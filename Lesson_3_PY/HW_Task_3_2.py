@@ -18,8 +18,8 @@ else:
         min = abs(X - A[0])
         index = 0
         for i in range(1, N):
-            count = abs(X - A[i])  #разница между числами X и каждым из элементов
-            if count < min:
-                min = count
+            difference = abs(X - A[i])  #разница между числами X и каждым из элементов
+            if difference < min:
+                min = difference
                 index = i
 print(f'Число {A[index]} в массиве наиболее близко по величине к числу {X}')
