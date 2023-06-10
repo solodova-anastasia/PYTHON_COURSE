@@ -11,5 +11,5 @@ def recurs_sum(a, b):
     return recurs_sum(a - 1, b + 1)
 
 a = int(input('Введите первое неотрицательное число: '))
-b = int(input('Введите второеое неотрицательное число: '))
+b = int(input('Введите второе неотрицательное число: '))
 print(recurs_sum(a, b))
