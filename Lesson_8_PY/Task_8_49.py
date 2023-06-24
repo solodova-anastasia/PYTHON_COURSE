@@ -40,11 +40,11 @@
 file_path = 'Lesson_8_PY\book_telephone.txt'
 vvod = int(input('Введите команду \n1 - вывод всех данных, \n2 - добавление контакта, \n3 - поиск контакта: \n'))
 if vvod ==1:
-    with open(file_path, 'r', encoding='UTF-8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         print(f.read())
 
 elif vvod ==3:
-    with open(file_path, 'r', encoding='UTF-8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
             #   poisk = int(input('Введите фамилию, имя, отчество для поиска'))
             #   for line in f:
             #         if poisk in line: print(line)

@@ -1,6 +1,0 @@
-Ivan,Ivanov,Ivanovich,86664564
-Dmitriy,Dmitriev,Dmitrievich,9709987
-Petr,Petrov,Petrovich,86546768
-PETR,PETROV,PETROVICH,5645
-Владимир,Владимирович,Дмитриев,56587
-сдвы,вса,всвы,34
